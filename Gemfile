@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby '2.4.0'
 
-gem "decidim", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "oriolgual-patch-1"
+gem "decidim", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "fix_proposals_loading"
 gem "decidim-debates", path: "engines/decidim-debates"
 
 gem 'uglifier', '>= 1.3.0'
@@ -14,7 +14,7 @@ end
 group :development do
   gem "progressbar"
   gem 'rainbow', "2.1.0"
-  gem "decidim-dev", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "oriolgual-patch-1"
+  gem "decidim-dev", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "fix_proposals_loading"
   gem 'web-console'
   gem 'listen'
   gem 'spring'

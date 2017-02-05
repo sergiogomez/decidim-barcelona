@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/AjuntamentdeBarcelona/decidim.git
-  revision: ab64392e1cb5204824c6baa3b397b359f3c232a2
-  branch: oriolgual-patch-1
+  revision: f3a64f657659e4bc1a4bb2629573a1571e00d58b
+  branch: fix_proposals_loading
   specs:
     decidim (0.0.3)
       decidim-admin (= 0.0.3)
@@ -265,7 +265,7 @@ GEM
     factory_girl_rails (4.8.0)
       factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
-    faker (1.7.2)
+    faker (1.7.3)
       i18n (~> 0.5)
     faraday (0.10.1)
       multipart-post (>= 1.2, < 3)
