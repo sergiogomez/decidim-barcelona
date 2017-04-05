@@ -6,6 +6,7 @@ class ChangeDecidimIdentitiesProviderUidIndexUniqueness < ActiveRecord::Migratio
     name: "decidim_identities_provider_uid_organization_unique"
 
     Decidim::Identity.includes(:user).find_each do |identity|
+      puts "Processing identity #{identity}..."
       identity.organization = identity.user.organization
       identity.save!
     end
