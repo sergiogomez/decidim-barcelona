@@ -138,7 +138,8 @@ GIT
 
 GIT
   remote: https://github.com/decidim/decidim-initiatives
-  revision: 58d4a25397d763c7c419ff123d410ae7e180a41c
+  revision: 40eec82c471f4684540f04aecb0a35a4e843caf6
+  branch: dont_use_helper
   specs:
     decidim-initiatives (0.2.6)
       decidim-admin

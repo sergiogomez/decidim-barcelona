@@ -6,7 +6,7 @@ gem "decidim", git: "https://github.com/decidim/decidim", branch: "patch_runtime
 gem "decidim-debates", path: "decidim-debates"
 gem "decidim-dataviz", path: "decidim-dataviz"
 gem "decidim-assemblies"
-gem "decidim-initiatives", git: "https://github.com/decidim/decidim-initiatives"
+gem "decidim-initiatives", git: "https://github.com/decidim/decidim-initiatives", branch: "dont_use_helper"
 
 gem "virtus-multiparams"
 
