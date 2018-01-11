@@ -138,7 +138,7 @@ GIT
 
 GIT
   remote: git://github.com/decidim/decidim-initiatives
-  revision: b5a9744c6640a92e6a4c00d2fe07fe48c3bac56b
+  revision: 2d32c4263dc81c7b4533d3cfb3ae3f271d0f04c1
   branch: use_contexts
   specs:
     decidim-initiatives (0.2.6)
@@ -418,7 +418,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.1)
     msgpack (1.2.0)
-    multi_json (1.12.2)
+    multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     newrelic_rpm (4.6.0.338)
