@@ -138,7 +138,7 @@ GIT
 
 GIT
   remote: git://github.com/decidim/decidim-initiatives
-  revision: 2d32c4263dc81c7b4533d3cfb3ae3f271d0f04c1
+  revision: 321bb3585511b5f14f935e2bf2a33673fe2e4d4e
   branch: use_contexts
   specs:
     decidim-initiatives (0.2.6)
