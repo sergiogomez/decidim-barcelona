@@ -2,11 +2,11 @@ source "https://rubygems.org"
 
 ruby '2.4.2'
 
-gem "decidim", "0.8.3"
+gem "decidim", git: "git://github.com/decidim/decidim", branch: "dont_dynamically_extend"
 gem "decidim-debates", path: "decidim-debates"
 gem "decidim-dataviz", path: "decidim-dataviz"
 gem "decidim-assemblies"
-gem "decidim-initiatives", git: "https://github.com/decidim/decidim-initiatives"
+gem "decidim-initiatives", git: "git://github.com/decidim/decidim-initiatives", branch: "use_contexts"
 
 gem "virtus-multiparams"
 
