@@ -138,10 +138,10 @@ GIT
 
 GIT
   remote: git://github.com/decidim/decidim-initiatives
-  revision: 321bb3585511b5f14f935e2bf2a33673fe2e4d4e
+  revision: a629b95ab9549ce0046322966668951cbc165689
   branch: use_contexts
   specs:
-    decidim-initiatives (0.2.6)
+    decidim-initiatives (0.2.9)
       decidim-admin
       decidim-comments
       decidim-core (~> 0.8.3)
